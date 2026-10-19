@@ -1,5 +1,5 @@
 
-import BuscadorGitHub from "./components/BuscadorGitHub";
+import BuscadorGitHub from "./Components/BuscadorGitHub";
 import "./App.css";
 
 function App() {

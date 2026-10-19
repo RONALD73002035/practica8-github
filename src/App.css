@@ -1,0 +1,112 @@
+
+.contenedor {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #ff5555;
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  color: #bbbbbb;
+  margin-bottom: 30px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.formulario input {
+  flex: 1;
+  min-width: 0;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #555;
+  background: #252530;
+  color: white;
+}
+
+.formulario button {
+  background: #ff5555;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background: #e84444;
+}
+
+.formulario button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.tarjeta {
+  background: #252530;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px #0005;
+  margin-top: 20px;
+}
+
+.avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid #ff5555;
+}
+
+.tarjeta h2 {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.alias {
+  color: #aaaaaa;
+}
+
+.biografia {
+  color: #dddddd;
+  margin: 20px 0;
+}
+
+.enlace {
+  display: inline-block;
+  background: #ff5555;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+
+.enlace:hover {
+  background: #e84444;
+}
+
+.error {
+  color: #ff5555;
+  font-weight: bold;
+}
+
+.cargando {
+  color: #ffcc00;
+}
+
+@media (max-width: 500px) {
+  .formulario {
+    flex-direction: column;
+  }
+}
